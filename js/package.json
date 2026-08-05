@@ -1,0 +1,45 @@
+{
+  "name": "weinc",
+  "version": "0.1.0",
+  "description": "WeInc AI website builder API client — list projects, publish sites, preview URLs, and custom domains via the WeInc v1 REST API.",
+  "keywords": [
+    "weinc",
+    "ai-website-builder",
+    "website-builder",
+    "api-client",
+    "sdk",
+    "ai",
+    "no-code"
+  ],
+  "homepage": "https://we.inc",
+  "bugs": {
+    "url": "https://github.com/umairalisadaqat/weinc-sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umairalisadaqat/weinc-sdk.git",
+    "directory": "js"
+  },
+  "license": "MIT",
+  "author": "WeInc (https://we.inc)",
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.cjs",
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
