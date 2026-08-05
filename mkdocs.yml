@@ -1,0 +1,11 @@
+site_name: WeInc SDK
+site_url: https://weinc-sdk.readthedocs.io/
+site_description: Official SDK for WeInc, the AI website builder. Build real, hosted websites from a description.
+site_author: WeInc
+repo_url: https://github.com/umairalisadaqat/weinc-sdk
+theme:
+  name: readthedocs
+nav:
+  - Overview: index.md
+  - Python: python.md
+  - JavaScript: javascript.md
